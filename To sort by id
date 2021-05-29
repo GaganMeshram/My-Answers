@@ -1,0 +1,8 @@
+var obj = [
+{"id" : 4, "name" : "abc4"},
+{"id" : 10, "name" : "abc10"},
+{"id" : 5, "name" : "abc5"},
+{"id" : 6 "name" : "abc6"},
+],
+const sorted=obj.sort(function(a,b){return(a.id - b.id)})
+consol.log(sorted);
